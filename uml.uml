@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>ef83a0be-221f-4385-8a1f-5ab26e8a5b68</OriginalElement>
+  <nodes>
+    <node x="0.0" y="390.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.user_mgt</node>
+    <node x="776.0" y="390.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.system_log_mgt</node>
+    <node x="0.0" y="1036.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.system_config_mgt</node>
+    <node x="0.0" y="0.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.blog_mgt</node>
+    <node x="0.0" y="766.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.news_mgt</node>
+    <node x="527.0" y="438.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.permission_mgt</node>
+    <node x="905.0" y="766.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.menu_mgt</node>
+    <node x="304.0" y="438.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.role_mgt</node>
+    <node x="254.0" y="1036.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.access_mgt</node>
+    <node x="451.125" y="641.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.role_permission_mgt</node>
+    <node x="315.0" y="766.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.message_mgt</node>
+    <node x="469.0" y="1036.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.json_key_value_mgt</node>
+    <node x="156.375" y="641.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.user_role_mgt</node>
+    <node x="610.0" y="766.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.section_mgt</node>
+    <node x="699.0" y="1036.0">ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.hibernate_sequence</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.user_role_mgt" target="ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.user_mgt">
+      <point x="-46.0" y="-40.0" />
+      <point x="202.375" y="616.0" />
+      <point x="142.0" y="616.0" />
+      <point x="0.0" y="100.5" />
+    </edge>
+    <edge source="ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.user_role_mgt" target="ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.role_mgt">
+      <point x="46.0" y="-40.0" />
+      <point x="294.375" y="616.0" />
+      <point x="354.75" y="616.0" />
+      <point x="-50.75" y="52.5" />
+    </edge>
+    <edge source="ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.role_permission_mgt" target="ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.permission_mgt">
+      <point x="45.75" y="-40.0" />
+      <point x="588.375" y="616.0" />
+      <point x="629.0" y="616.0" />
+      <point x="0.0" y="52.5" />
+    </edge>
+    <edge source="ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.role_permission_mgt" target="ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.role_mgt">
+      <point x="-45.75" y="-40.0" />
+      <point x="496.875" y="616.0" />
+      <point x="456.25" y="616.0" />
+      <point x="50.75" y="52.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9375527426160337" x="947.4770477047705" y="382.10711071107113" />
+  <SelectedNodes>
+    <node>ef83a0be-221f-4385-8a1f-5ab26e8a5b68.TABLE:blog.user_role_mgt</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
